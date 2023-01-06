@@ -1,0 +1,262 @@
+@media (min-width:800px){
+body{
+    background-color: #472D2D;
+    /* font-family: 'Bebas Neue', cursive; */
+}
+
+
+.centrering{
+    height: 100vh;
+}
+
+header{
+    color: beige;
+}
+
+
+.genveje{
+    text-align: right;
+    margin-top: -5%;
+}
+a{
+    text-decoration: none;
+    color: beige;
+    font-size: 30px;
+   margin-right: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: bold;
+}
+
+a:hover{
+    color:#BB4F31;
+}
+
+
+h1{
+    font-size: 100px;
+    color: #be6046;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 140px;
+    margin-top: 0.3px;
+    margin-bottom: 0.3px;
+    margin-left: 60px;
+}
+
+.h1{
+    margin-top: 4%;
+}
+
+h2{
+    color: #be6046;
+    
+    Font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+p{
+    color: beige;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.p_forside{
+    margin-left: 67px;
+    position: absolute;
+}
+
+
+.logo{
+    height: 70px;
+    margin:5px;
+}
+
+
+/*----------------------------- om mig ----------------------------------*/
+
+.grid{
+    display: grid;  
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin-left: -10%;
+}
+
+.col_2{
+    margin-right: 15%;
+    margin-top: 7%;
+    margin-left: 15%;
+    /* text-align: center; */
+}
+
+.col_1
+img{
+    grid-row-start:  1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 2;
+    max-width: 50%;
+    margin-left: 45%;
+    margin-top: 22%;
+    /* border-radius: 10px; */
+} 
+
+h2{
+    text-align: center;
+}
+
+/*---------------- projekter --------------------- */
+
+
+.img_con{
+position: absolute;
+right:6%;
+top: 35%;
+width: 80%;
+height: 80%;
+}
+
+.hide{
+    display: none;
+}
+
+.tema_con{
+    color: beige;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 6%;
+    cursor: pointer;
+
+}
+
+
+h3:hover{
+    color:#BB4F31;
+}
+
+}
+/* ------------responsivt--------------- */
+
+@media (max-width:800px){
+
+    header{
+        color: beige;
+    }
+    
+    
+    .genveje{
+        text-align: center;
+        margin-top: -5%;
+    }
+    a{
+        text-decoration: none;
+        color: beige;
+        font-size: 35px;
+       margin-right: 20px;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-weight: bold;
+    }
+
+    body{
+        background-color: #472D2D;
+        /* font-family: 'Bebas Neue', cursive; */
+    }
+    
+a{
+font-size: 25px;
+color: beige;
+text-decoration: none;
+}
+
+.logo{
+    height: 45px;
+    margin:5px;
+}
+
+h1{
+    font-size: 400px;
+    color: #be6046;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 10vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+
+
+.p_forside{
+    margin-left: 130px;
+    position: absolute;
+    font-size: 12px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 30px;
+    margin-top: 1%;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    gap: 8%;
+   
+}
+
+li{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+p{
+    color: beige;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h2{
+    color: #be6046;
+    Font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+img{
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+
+.img_con{
+position: absolute;
+left:10%;
+top: 40%;
+width: 80%;
+height: 80%;
+
+}
+
+.hide{
+    display: none;
+}
+
+.tema_con{
+    color: beige;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+
+h3:hover{
+    color:#BB4F31;
+}
+}
